@@ -1,27 +1,19 @@
-# AngularTodo
+# Angular Todo App with Routing Feature
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+Successfully created my first Angular JS app
 
-## Development server
+- visit https://sunilale0.github.io/angular-todo-and-routing/ for live deployment
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Features:
 
-## Code scaffolding
+- add todo
+- update todo
+- delete todo
+- check console to if the features are working. I am using https://jsonplaceholder.typicode.com/todos, so some features don't work for new user inputs
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### How to deploy angualar Application to github:
 
-## Build
+Step 1: `ng build --prod --output-path docs --base-href /<project_name>/`
+Step 2: make a copy of `docs/index.html` and name it `404.html`. save it in the same folder `docs/` so it has both files `index.html` and `404.html`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_Here is the link to the guide: https://angular.io/guide/deployment#deploy-to-github-pages_
