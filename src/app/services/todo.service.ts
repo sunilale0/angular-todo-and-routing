@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: "root"
 })
 export class TodoService {
-  todosUrl: string = "http://jsonplaceholder.typicode.com/todos";
+  todosUrl: string = "https://jsonplaceholder.typicode.com/todos";
   todosLimit = "?_limit=5";
   constructor(private http: HttpClient) {}
 
